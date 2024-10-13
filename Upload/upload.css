@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8bbd0;
+    height: 50px;
+    padding: 15px;
+}
+
+.header img {
+    height: 7rem;
+    width: auto;
+    margin: 0px;
+}
+
+.header nav a {
+    margin: 0 80px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header nav a.active {
+    color: #d81b60;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffe6f2;
+    border-radius: 10px;
+}
+
+.upload-box {
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.upload-box p {
+    margin: 10px 0;
+    color: #ccc;
+}
+
+.upload-box a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.file-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.file-info .file-name {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.file-info .file-name i {
+    margin-right: 10px;
+}
+
+.file-info .file-size {
+    color: #888;
+    text-align: right;
+}
+
+.file-info .remove-file {
+    color: #888;
+    cursor: pointer;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.info p {
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.info p {
+    color: #888;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttons button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}

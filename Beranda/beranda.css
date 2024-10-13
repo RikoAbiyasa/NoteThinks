@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8bbd0;
+    height: 50px;
+    padding: 15px;
+}
+
+.header img {
+    height: 7rem;
+    width: auto;
+    margin: 0px;
+}
+
+.header nav button {
+    margin: 0 80px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.header nav button.active {
+    color: #d81b60;
+}
+
+.header .login-btn {
+    background-color: #FFCEEC;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.main-content {
+    text-align: left;
+    padding: 50px 20px;
+}
+
+.main-content h1 {
+    font-size: 64px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.main-content #p1 {
+    font-size: 36px;
+    color: #555;
+}
+
+.main-content #p2 {
+    font-size: 32px;
+    font-weight: lighter;
+    color: #555;
+    word-spacing: 0cm;
+    margin-top: 54px;
+    margin-bottom: 19px;
+}
+
+.main-content .login-now-btn {
+    background-color: #FFCEEC;
+    color: black;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 32px;
+    cursor: pointer;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.course {
+    background-color: #FFB7E2;
+    margin: 50px;
+    border-radius: 0px;
+    overflow: hidden;
+    width: 268px;
+    height: 243px;
+    text-align: center;
+}
+
+.course img {
+    width: 100%;
+    height: 174px;
+    object-fit: cover;
+}
+
+.course .course-title {
+    background-color: #FFB7E2;
+    padding: 5px;
+    font-weight: bolder;
+    font-size: 16;
+    font-style: italic;
+}
+
+.course .course-detail-btn {
+    background-color: #FFCEEC;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    width: 208px;
+    font-size: 20;
+    font-weight: bold;
+}
+
+.act-btn {
+    background: #FFCEEC;
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-decoration: none;
+    transition: ease all 0.3s;
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+}
+
+.act-btn:hover {
+    background: #FFB7E2;
+}
+
+.login-btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.login-now-btn a {
+    text-decoration: none;
+    color: black;
+}

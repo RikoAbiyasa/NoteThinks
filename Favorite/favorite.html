@@ -1,0 +1,229 @@
+<html>
+
+<head>
+    <title>
+        NoteThinks
+    </title>
+    <link rel="icon" href="/Foto NoteThinks/Logo_Png.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fce4ec;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f8bbd0;
+            height: 50px;
+            padding: 15px;
+        }
+
+        .header img {
+            height: 7rem;
+            width: auto;
+            margin: 0px;
+        }
+
+        .header nav a {
+            margin: 0 80px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .header nav a.active {
+            color: #d81b60;
+        }
+
+
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .search-bar input[type="text"] {
+            padding: 10px;
+            width: 1000px;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+        }
+
+        .search-bar button {
+            padding: 10px;
+            border: none;
+            background-color: #f8bbd0;
+            color: white;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+
+        .search-bar button i {
+            color: #d81b60;
+        }
+
+        .filter-button {
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f8bbd0;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        .filter-button i {
+            color: #d81b60;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .content h2 {
+            color: black;
+        }
+
+        .item {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            width: 20%;
+        }
+
+        .item img {
+            height: 100px;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+
+        .item .details {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .item .details .title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .item .details h3 {
+            margin: 0;
+            color: d81b60;
+        }
+
+        .item .details p {
+            margin: 5px 0;
+            color: black;
+        }
+
+        .item .details button {
+            padding: 10px;
+            border: none;
+            background-color: #ffb7d0;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .item .details button {
+            padding: 10px;
+            border: none;
+            background-color: #ffb7d0;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .floating-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .bookmark {
+            color: #d81b60;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img alt="Logo" height="40" src="/Foto NoteThinks/Logo_Png.png" width="40" />
+        <nav>
+            <a href="/Beranda After/beranda.css">
+                Beranda
+            </a>
+            <a href="/Kategori New/Katagori.html">Kategori</a>
+            <a class="active" href="/Favorite/favorite.html">
+                Favorit
+            </a>
+        </nav>
+        <a href="/Profile/profile.html" class="fas fa-user-circle"
+            style="font-size: 50px; color: black; text-decoration: none;"></a>
+    </div>
+    <div class="search-bar">
+        <input placeholder="Cari materi belajarmu disini" type="text" />
+        <button>
+            <i class="fas fa-search">
+            </i>
+        </button>
+        </button>
+        <button class="filter-button">
+            <i class="fas fa-sliders-h">
+            </i>
+        </button>
+    </div>
+    <div class="content">
+        <h2>
+            Item Tersimpan
+        </h2>
+        <div class="item">
+            <img alt="Mathematics fractions image" height="100" src="/Foto NoteThinks/pecahan 1.jpeg" width="100" />
+            <div class="details">
+                <div class="title">
+                    <h3>
+                        Matematika
+                    </h3>
+                    <i class="fas fa-bookmark bookmark">
+                    </i>
+                </div>
+                <p>
+                    Operasi Hitung Bilangan Pecahan
+                </p>
+                <button>
+                    <a href="/Materi/materi.html" style="text-decoration: none; color: black;">Lihat Detail</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <button class="floating-button">
+        <i class="fas fa-plus">
+        </i>
+
+    </button>
+
+</body>
+
+</html>

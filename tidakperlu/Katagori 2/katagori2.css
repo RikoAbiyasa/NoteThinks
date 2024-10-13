@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #ffccdd;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    height: 50px;
+}
+
+.header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.header .login-button {
+    background-color: #ffccdd;
+    border: 2px solid #ffccdd;
+    border-radius: 10px;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

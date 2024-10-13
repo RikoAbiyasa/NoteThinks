@@ -1,0 +1,363 @@
+<html></html>
+ <head>
+  <title>
+   Kategori
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: Arial, sans-serif;
+            background-color: #fce4ec;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f8bbd0;
+            padding: 10px 20px;
+        }
+        .header img {
+            height: 40px;
+        }
+        .header nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .header nav a.active {
+            color: #d81b60;
+        }
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .search-bar input {
+            width: 50%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+        }
+        .search-bar button {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-left: none;
+            background-color: #f8bbd0;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+        .search-bar button i {
+            color: #d81b60;
+        }
+        .filter-button {
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f8bbd0;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        .filter-button i {
+            color: #d81b60;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            width: 300px;
+            overflow: hidden;
+        }
+        .card img {
+            width: 300px;
+            height: 200px;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card-content .category {
+            color: #d81b60;
+            font-weight: bold;
+        }
+        .card-content .title {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .card-content .rating {
+            color: #ff9800;
+            margin-bottom: 10px;
+        }
+        .card-content .author {
+            color: #757575;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="header">
+   <img alt="Logo" height="40" src="/logo-removebg-preview (1).png" width="40"/>
+   <nav>
+    <a href="#">
+     Beranda
+    </a>
+    <a class="active" href="#">
+     Kategori
+    </a>
+    <a href="#">
+     Favorit
+    </a>
+   </nav>
+   <i class="fas fa-user-circle" style="font-size: 24px; color: black;">
+   </i>
+  </div>
+  <div class="search-bar">
+   <input placeholder="Coba cari materi belajarmu disini" type="text"/>
+   <button>
+    <i class="fas fa-search">
+    </i>
+   </button>
+   <button class="filter-button">
+    <i class="fas fa-sliders-h">
+    </i>
+   </button>
+  </div>
+  <div class="content">
+   <div class="card">
+    <img alt="Matematika - Trigonometri - Sin Cos Tan" height="200" src="/Foto NoteThinks/pecahan.jpeg" width="300"/>
+    <div class="card-content">
+     <div class="category">
+      Matematika
+     </div>
+     <div class="title">
+      Operasi Hitung Bilangan
+     </div>
+     <div class="rating">
+      <i class="fas fa-star">
+      </i>
+      4.8
+     </div>
+     <div class="author">
+      @QueenSabrina12
+     </div>
+    </div>
+   </div>
+   <div class="card">
+    <img alt="Matematika - Trigonometri - Sin Cos Tan" height="200" src="/Foto NoteThinks/konsep.jpeg" width="300"/>
+    <div class="card-content">
+     <div class="category">
+      Ekonomi
+     </div>
+     <div class="title">
+      Konsep Dasar Ilmu Ekonomi
+     </div>
+     <div class="rating">
+      <i class="fas fa-star">
+      </i>
+      3.7
+     </div>
+     <div class="author">
+      @WiwikSadewi23
+     </div>
+    </div>
+   </div>
+   <div class="card">
+    <img alt="Matematika - Trigonometri - Sin Cos Tan" height="200" src="/Foto NoteThinks/kimia.png" width="300"/>
+    <div class="card-content">
+     <div class="category">
+      Kimia
+     </div>
+     <div class="title">
+      Kimia Dasar 1
+     </div>
+     <div class="rating">
+      <i class="fas fa-star">
+      </i>
+      5.0
+     </div>
+     <div class="author">
+      @ErwinKakaka3
+     </div>
+    </div>
+   </div>
+   <div class="card">
+    <img alt="Matematika - Trigonometri - Sin Cos Tan" height="200" src="/Foto NoteThinks/71.jpeg" width="300"/>
+    <div class="card-content">
+     <div class="category">
+      Pengetahuan Umum
+     </div>
+     <div class="title">
+      7 Keajaiban Dunia
+     </div>
+     <div class="rating">
+      <i class="fas fa-star">
+      </i>
+      3.9
+     </div>
+     <div class="author">
+      @RirinSuaaa
+     </div>
+    </div>
+   </div>
+   <div class="card">
+    <img alt="Matematika - Trigonometri - Sin Cos Tan" height="200" src="/Foto NoteThinks/aneka.jpeg" width="300"/>
+    <div class="card-content">
+     <div class="category">
+      Biologi
+     </div>
+     <div class="title">
+      Keanekaragaman Hayati
+     </div>
+     <div class="rating">
+      <i class="fas fa-star">
+      </i>
+      4.8
+     </div>
+     <div class="author">
+      @TitikTitik8
+     </div>
+    </div>
+   </div>
+   <div class="card">
+    <img alt="Matematika - Trigonometri - Sin Cos Tan" height="200" src="/Foto NoteThinks/lap.png" width="300"/>
+    <div class="card-content">
+     <div class="category">
+      Bahasa Indonesia
+     </div>
+     <div class="title">
+      Laporan Hasil Observasi
+     </div>
+     <div class="rating">
+      <i class="fas fa-star">
+      </i>
+      4.4
+     </div>
+     <div class="author">
+      @RikRikaooo
+     </div>
+    </div>
+   </div>
+   <div class="card">
+    <img alt="Matematika - Trigonometri - Sin Cos Tan" height="200" src="/Foto NoteThinks/his.jpeg" width="300"/>
+    <div class="card-content">
+     <div class="category">
+      Sejarah
+     </div>
+     <div class="title">
+      Ilmu Sejarah
+     </div>
+     <div class="rating">
+      <i class="fas fa-star">
+      </i>
+      3.3
+     </div>
+     <div class="author">
+      @CipaCansss8
+     </div>
+    </div>
+   </div>
+   <div class="card">
+    <img alt="Matematika - Trigonometri - Sin Cos Tan" height="200" src="/Foto NoteThinks/ad.png" width="300"/>
+    <div class="card-content">
+     <div class="category">
+      Bahasa Inggris
+     </div>
+     <div class="title">
+      Abjective (Kata Sifat)
+     </div>
+     <div class="rating">
+      <i class="fas fa-star">
+      </i>
+      4.8
+     </div>
+     <div class="author">
+      @OpaNenekUpin
+     </div>
+    </div>
+   </div>
+   <div class="card">
+    <img alt="Matematika - Trigonometri - Sin Cos Tan" height="200" src="/Foto NoteThinks/statis.png" width="300"/>
+    <div class="card-content">
+     <div class="category">
+      Matematika
+     </div>
+     <div class="title">
+      Statistika
+     </div>
+     <div class="rating">
+      <i class="fas fa-star">
+      </i>
+      4.8
+     </div>
+     <div class="author">
+      @PitriiiW47
+     </div>
+    </div>
+   </div>
+   <div class="card">
+    <img alt="Matematika - Trigonometri - Sin Cos Tan" height="200" src="/Foto NoteThinks/him.png" width="300"/>
+    <div class="card-content">
+     <div class="category">
+      Matematika
+     </div>
+     <div class="title">
+      Himpunan
+     </div>
+     <div class="rating">
+      <i class="fas fa-star">
+      </i>
+      4.8
+     </div>
+     <div class="author">
+      @QueenSabrina12
+     </div>
+    </div>
+   </div>
+   <div class="card">
+    <img alt="Matematika - Trigonometri - Sin Cos Tan" height="200" src="/Foto NoteThinks/verb.png" width="300"/>
+    <div class="card-content">
+     <div class="category">
+      Bahasa Inggris
+     </div>
+     <div class="title">
+      Verb (Kata Kerja)
+     </div>
+     <div class="rating">
+      <i class="fas fa-star">
+      </i>
+      5.0
+     </div>
+     <div class="author">
+      @OpaNenekUpin
+     </div>
+    </div>
+   </div>
+   <div class="card">
+    <img alt="Matematika - Trigonometri - Sin Cos Tan" height="200" src="/Foto NoteThinks/pra.jpeg" width="300"/>
+    <div class="card-content">
+     <div class="category">
+      Sejarah
+     </div>
+     <div class="title">
+      Masa Praaksara
+     </div>
+     <div class="rating">
+      <i class="fas fa-star">
+      </i>
+      3.5
+     </div>
+     <div class="author">
+      @AbdulWahab55
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notethinks</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="icon" href="/Foto NoteThinks/Logo_Png.png">
+    <link rel="stylesheet" href="upload.css">
+</head>
+
+<body>
+    <div class="header">
+        <img alt="Logo" height="40" src="/Foto NoteThinks/Logo_Png.png" width="40" />
+        <nav>
+            <a href="/Beranda After/index.html">Beranda</a>
+            <a href="/Kategori New/Katagori.html">Kategori</a>
+            <a href="/Favorite/favorite.html">Favorit</a>
+        </nav>
+        <a href="/Profile/profile.html" class="fas fa-user-circle"
+            style="font-size: 50px; color: black; text-decoration: none;"></a>
+    </div>
+
+    <div class="container">
+        <h2>UNGGAH BERKAS</h2>
+
+        <!-- Form untuk mengunggah berkas -->
+        <form id="uploadForm">
+            <div class="upload-box" id="upload-box">
+                <i class="fas fa-upload" style="font-size: 48px; color: #ccc;"></i>
+                <p>Seret dan letakkan berkas di sini atau</p>
+                <label for="fileUpload" style="cursor: pointer; color: black; text-decoration: underline;">Pilih
+                    berkas</label>
+                <input type="file" id="fileUpload" style="display: none;" />
+            </div>
+        </form>
+
+        <div class="info">
+            <p>Maximum size: 25MB</p>
+            <p>Format dukungan: PDF, DOCS, XLS, XLSX</p>
+        </div>
+
+        <div class="file-info" id="file-info" style="display: none;">
+            <div class="file-name">
+                <i class="fas fa-file-alt"></i>
+                <span id="fileName">Operasi Hitung Bilangan Pecahan.pdf</span>
+            </div>
+            <div class="file-size" id="fileSize">5 MB</div>
+            <div class="remove-file" id="removeFile" style="cursor: pointer;">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button type="button" onclick="resetForm()">Kembali</button>
+            <button type="button" onclick="uploadFile()">Unggah</button>
+        </div>
+    </div>
+
+    <script src="/jsall.js"></script>
+</body>
+
+</html>

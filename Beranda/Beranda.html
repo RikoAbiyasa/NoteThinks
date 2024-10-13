@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoteThinks!</title>
+    <link rel="icon" href="/Foto NoteThinks/Logo_Png.png">
+    <link rel="stylesheet" href="beranda.css">
+</head>
+
+<body>
+    <script>
+        function showAlert() {
+            alert("Anda Belum Masuk Kedalam Akun!");
+        }
+    </script>
+    <header class="header">
+        <img alt="NoteThinks Logo" src="/Foto NoteThinks/Logo_Png.png" />
+        <nav>
+            <button class="active" onclick="showAlert()">Beranda</button>
+            <button onclick="showAlert()">Kategori</button>
+            <button onclick="showAlert()">Favorit</button>
+        </nav>
+        <button class="login-btn"><a href="/MasukAkun/Masuk.html">Masuk</a></button>
+    </header>
+    <main class="main-content">
+        <h1>Selamat Datang di<br>NoteThinks!</h1>
+        <p id="p1">Berbagi Pengetahuan Membangun Masa<br>Depan.</p>
+        <p id="p2">Untuk mendapatkan fitur yang lebih memuaskan</p>
+        <button class="login-now-btn"><a href="/Buat_Akun/BuatAkun.html">Daftar Sekarang!</a></button>
+        <div class="courses">
+            <div class="course">
+                <img alt="Matematika" src="/Foto NoteThinks/matematika 1.png" />
+                <div class="course-title">Matematika</div>
+                <button class="course-detail-btn">Lihat Detail</button>
+            </div>
+            <div class="course">
+                <img alt="Biologi" src="/Foto NoteThinks/biologi.jpeg" />
+                <div class="course-title">Biologi</div>
+                <button class="course-detail-btn">Lihat Detail</button>
+            </div>
+            <div class="course">
+                <img alt="Kimia" src="/Foto NoteThinks/kimia 1.png" />
+                <div class="course-title">Kimia</div>
+                <button class="course-detail-btn">Lihat Detail</button>
+            </div>
+            <div class="course">
+                <img alt="Bahasa Inggris" height="150" src="/Foto NoteThinks/inggris.jpeg" width="200" />
+                <div class="course-title">Bahasa Inggris</div>
+                <button class="course-detail-btn">Lihat Detail</button>
+            </div>
+        </div>
+    </main>
+
+
+</body>
+
+</html>
